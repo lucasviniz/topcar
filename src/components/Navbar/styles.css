@@ -1,0 +1,8 @@
+.nav-logo{
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}

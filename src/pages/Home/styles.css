@@ -1,0 +1,60 @@
+.card-car{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.img-car{
+    width: 100%;
+    padding: 20px 0px;
+    object-fit: contain;
+}
+.description-car{
+    margin-block: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.description-car h2{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.description-car p{
+    font-size: 11px;
+}
+
+.card-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f0ecec;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card-button p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+@media(min-width: 576px){
+    .card-car{
+        padding: 40px;
+    }
+
+    .description-car h2{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    
+    .description-car p{
+        font-size: 20px;
+    }
+}
